@@ -9,4 +9,9 @@ $(document).ready(function() {
             window.location.href = url;
         });
     });
+
+    function openExtension(extensionId) {
+        let url = '/extension/' + extensionId;
+        window.location.href = url;
+    }
 });
