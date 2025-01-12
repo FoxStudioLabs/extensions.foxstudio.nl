@@ -1,0 +1,62 @@
+.hp-logo {
+    max-height: 30px;
+}
+
+.availability-bar{
+    background-color: #d5d5d5;
+    border: 1px solid #e9ecef;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.availability-bar .availability-bar-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.availability-bar .availability-bar-item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.availability-bar .availability-bar-item:not(:last-child) {
+    border-right: 1.5px solid #202020;
+    padding-right: 10px;
+}
+
+.availability-bar .availability-bar-item:last-child {
+    margin-right: 0;
+}
+
+.availability-bar .availability-bar-item .availability-bar-item-icon {
+    margin-right: 5px;
+    min-height: 20px;
+}
+
+.availability-bar .availability-bar-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.btn-unstyled {
+    background: none;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+    height: 3em;
+    width: 3em;
+}
+
+.svg-fix{
+    min-width: 1em;
+    min-height: 1em;
+}
